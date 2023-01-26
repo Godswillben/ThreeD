@@ -9,3 +9,8 @@ let w = 4.78
 let myName = "Nik lever"
 myName + x
 
+let firstName = "Nik"
+
+let lastName = "lever"
+
+let fullName = firstName + " " + lastName
