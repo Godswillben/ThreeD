@@ -43,3 +43,19 @@ class Rectangle{
     
     }
 }
+
+class game{
+    constructor(name){
+        this.days=['Monday', "Tuesday", "Wednesday", "Thrusday", "Friday"]
+        this.name = name;
+        this.mouse = {x:0, y:0};
+    }
+
+    showDays(){
+        const self = this;
+
+        this.days.forEach( function(day){
+            console.log(`global name: '${name}'`)
+        })
+    }
+}
