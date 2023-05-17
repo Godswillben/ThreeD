@@ -32,4 +32,14 @@ class Rectangle{
 
         return true
     }
+
+    mouseMove(evt){
+        console.log(this.name);
+        this.x = evt.clientX;
+        this.y = evt.clientY;
+    }
+
+    showDays(){
+    
+    }
 }
