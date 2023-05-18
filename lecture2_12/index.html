@@ -38,6 +38,9 @@
       function displayFacts(planets){
         const largest = planets.reduce( (acc, loc)=> acc.radius > loc.radius ? acc : loc)
         console.log(`The largest planet in the solar system is ${largest.name}`)
+
+        const smallest = planets.reduce( (acc, loc)=> acc.radius < loc.radius ? acc : loc)
+        console.log(`The smallest planet in the solar system is ${smallest.name}`)
       }
     </script>
 </body>
